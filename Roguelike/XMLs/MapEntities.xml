@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<!--
+
+			public bool passable;
+			public String name;
+			public char type;
+			public bool transluscent;
+
+-->
+
+
+<MapEntities>
+	<entity name = "tree" type = "T" passable = "false" transluscent = "false" family="tree" HP="100" />
+</MapEntities>

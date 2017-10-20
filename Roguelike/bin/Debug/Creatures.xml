@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<creatures>
+<!--
+								   string name,
+								   byte HP, 
+		                                   byte fighting ,
+		                                   char type, 
+		                                   byte bravery,
+		                                   byte charisma,
+		                                   byte agility,
+		                                   byte initiative,
+		                                   byte inteligence,
+		                                   byte strength,
+		                                   byte morale,
+		                                   byte visualrange,
+		                                   AILoop.AIType aiType
+public enum AIType{
+			BasicAi, Null
+		};
+-->
+	<creature name="Orc" type="O" HP="100" fighting="10" bravery="10" charisma="10" agility="8" initiative="10" strength="15" morale="10" visualrange="4" aiType="BasicAi"/>
+	<creature name="Goblin" type="g" HP="50" fighting="8" bravery="8" charisma="10" agility="8" initiative="10" strength="15" morale="10" visualrange="5" aiType="BasicAi"/>
+
+
+</creatures>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	String name = name of item
+	char type = char to represent on map (eg. '@' for player)
+	int weight
+	public enum ResourceType{
+			nullResource = 0,
+			wood = 1,
+		} 
+-->
+<resources>
+
+	<resource name="wood" type="=" weight="0" resourceType="wood" />
+
+
+</resources>

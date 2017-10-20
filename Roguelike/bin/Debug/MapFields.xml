@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+<!--
+public string name { get; set; }
+			public char type { get; set; }
+			// Frequency of occurence - Prawdopobienstwo stworzenia nowe pola, jezeli sasiad jest polem INNEGO typu.
+			public byte foo { get; set; }
+			// Weight - Prawdopobienstwo stworzenia nowe pola, jezeli sasiad jest polem TEGO SAMEGO typu.
+			public byte weight { get; set; }
+			public bool passable { get; set; }
+			public bool transluscent { get; set; }
+			public ConsoleColor colour { get; set; }
+			Console Colours list:
+			//The example displays output like the following:
+//    All the foreground colors except DarkCyan, the background color:
+//       The foreground color is Black.
+//       The foreground color is DarkBlue.
+//       The foreground color is DarkGreen.
+//       The foreground color is DarkRed.
+//       The foreground color is DarkMagenta.
+//       The foreground color is DarkYellow.
+//       The foreground color is Gray.
+//       The foreground color is DarkGray.
+//       The foreground color is Blue.
+//       The foreground color is Green.
+//       The foreground color is Cyan.
+//       The foreground color is Red.
+//       The foreground color is Magenta.
+//       The foreground color is Yellow.
+//       The foreground color is White.
+//    
+//    All the background colors except White, the foreground color:
+//       The background color is Black.
+//       The background color is DarkBlue.
+//       The background color is DarkGreen.
+//       The background color is DarkCyan.
+//       The background color is DarkRed.
+//       The background color is DarkMagenta.
+//       The background color is DarkYellow.
+//       The background color is Gray.
+//       The background color is DarkGray.
+//       The background color is Blue.
+//       The background color is Green.
+//       The background color is Cyan.
+//       The background color is Red.
+//       The background color is Magenta.
+//       The background color is Yellow.
+-->
+
+<field name="nothing" type="_" foo="150" weight="160" passable="true" transluscent="true" colour="White"/>
+<field name="water" type="~" foo="0" weight="90" passable="false" transluscent="true" colour="Blue"/>
+<field name="closedDoor" type="H" foo="0" weight="0" passable="false" transluscent="false" colour="Brown"/>
+<field name="openDoor" type="L" foo="0" weight="0" passable="true" transluscent="true" colour="Brown"/>
+<field name="nsWall" type="|" foo="0" weight="0" passable="false" transluscent="false" colour="Brown"/>
+<field name="ewWall" type="-" foo="0" weight="0" passable="false" transluscent="false" colour="Brown"/>
+
+
+</fields>

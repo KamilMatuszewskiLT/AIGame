@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+<!--
+	String name = name of item
+	char type = char to represent on map (eg. '@' for player)
+	int weight 
+	int minDamage
+	int maxDamage
+  	byte weapon length
+
+-->
+	<weapon name="Sword" type="/" weight="0" minDamage="1" maxDamage="5" weaponLength="2" special="null" damageType="slashing"/>
+	<weapon name="Axe" type="]" weight="0" minDamage="2" maxDamage="10" weaponLength="1" special="null" damageType="slashing"/>
+	<tool name="WoodChoppingAxe" type=")" weight="0" minDamage="2" maxDamage="6" weaponLength="2" special="woodchopping" damageType="slashing"/>
+	
+
+</weapons>
